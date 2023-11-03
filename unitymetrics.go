@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/equelin/gounity"
+	"github.com/scrik/gounity"
 	"github.com/sirupsen/logrus"
 )
 
