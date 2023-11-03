@@ -36,6 +36,7 @@ jobs:
     - name: Init module
       run: | 
           go mod init github.com/Scrik/unitymetrics
+          go mod tidy
     - name: Build
       run: go build -v ./...
 
