@@ -32,7 +32,7 @@ jobs:
           go get -u github.com/equelin/gounity
     - name: Install dependencies Logrus
       run: |  
-          go get -u github.com/Sirupsen/logrus@v1.0.6
+          go get -u github.com/Sirupsen/logrus@v1.1.1
           
     - name: Install
       run: go install 
