@@ -35,7 +35,7 @@ jobs:
           go get github.com/sirupsen/logrus
     - name: Init module
       run: | 
-          go mod init
+          go mod init github.com/Scrik/unitymetrics
     - name: Build
       run: go build -v ./...
 
