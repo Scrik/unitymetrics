@@ -30,9 +30,6 @@ jobs:
     - name: Install dependencies Gounity
       run: |
           go get -u github.com/equelin/gounity
-    - name: Install dependencies Unix
-      run: |  
-          go get -u golang.org/x/sys/unix
     - name: Install dependencies Logrus
       run: |  
           go get -u github.com/sirupsen/logrus
