@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/equelin/gounity"
-	"github.com/sirupsen/logrus"
+	"github.com/Scrik/gounity"
+	"github.com/Sirupsen/logrus"
 )
 
 // Types
