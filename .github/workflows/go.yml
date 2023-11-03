@@ -31,7 +31,7 @@ jobs:
           
     - name: Install dependencies Gounity
       run: |
-          go get github.com/equelin/gounity
+          go get github.com/scrik/gounity
           
     - name: Install dependencies Logrus
       run: |  
