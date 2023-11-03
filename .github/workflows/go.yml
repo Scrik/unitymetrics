@@ -33,9 +33,6 @@ jobs:
     - name: Install dependencies Logrus
       run: |  
           go get github.com/sirupsen/logrus
-          
-    - name: Install
-      run: go install 
 
     - name: Build
       run: go build -v ./...
