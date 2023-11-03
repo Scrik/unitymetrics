@@ -23,16 +23,18 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
-        go-version: '1.13'
-
-    - name: Install dependencies Gounity
+        go-version: '1.14'
+    - name: Check version Go
       run: |
           go version
+    - name: Install dependencies Gounity
+      run: |
           go get -u github.com/equelin/gounity
+    - name: Install dependencies Unix
+      run: |  
+          go get -u golang.org/x/sys/unix
     - name: Install dependencies Logrus
       run: |  
-          go version
-          go get -u golang.org/x/sys/unix
           go get -u github.com/sirupsen/logrus
           
     - name: Install
