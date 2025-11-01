@@ -37,7 +37,7 @@ jobs:
       run: |  
           go get github.com/sirupsen/logrus
           
-    - name: Init module
+    - name: Init module Unitymetrics
       run: | 
           go mod init github.com/Scrik/unitymetrics
           go mod tidy
