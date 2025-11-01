@@ -3,12 +3,12 @@ all:
 	$(MAKE) unitymetrics
 
 deps:
-	go get -u github.com/equelin/gounity
+	go get -u github.com/Scrik/gounity
 	go get -u github.com/sirupsen/logrus
 
 unitymetrics:
-	env GOOS=linux GOARCH=amd64 go build -v github.com/equelin/unitymetrics
-	env GOOS=windows GOARCH=amd64 go build -v github.com/equelin/unitymetrics
+	env GOOS=linux GOARCH=amd64 go build -v github.com/Scrik/unitymetrics
+	env GOOS=windows GOARCH=amd64 go build -v github.com/Scrik/unitymetrics
 
 go-install:
 	go install 
